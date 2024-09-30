@@ -1,0 +1,39 @@
+/* spesifik selektor */
+h1{
+    color: rgb(0, 187, 255);
+    font-family: 'Franklin Gothic Medium';
+}
+p{
+    color: forestgreen;
+    font-family: Arial;
+}
+a{
+    background-color: rgb(114, 234, 250);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* universal selektor */
+*{
+    font-family: monospace;
+}
+/* class selektor */
+h2.ucapan{
+    color: rgb(73, 114, 131);
+}
+/* id selektor */
+#warna_dan_font{
+    color: crimson;
+    font-family: Georgia;
+}
+/* child selector */
+th>b{
+    color: rgba(0, 79, 139, 0.687);
+}
+/* decendant selector */
+p i{
+    color: crimson;
+    font-size: 19px;
+}
+p b{
+    color: rgb(225, 157, 172);
+    font-size: 19px;
+}
